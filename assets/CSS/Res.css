@@ -55,11 +55,6 @@
   .footer-content-map {
     margin-top: 20px;
   }
-
-  .searchSave-search select{
-    margin-bottom: 10px;
-  }
-
   
 
 }
@@ -76,21 +71,7 @@
   .header-search {
     width: 300px;
   }
-  .searchSaved{
-    padding-top: 150px;
-  }
-  .searchSaved-box-title{
-    font-size: 1.6rem;
-  }
-  .searchSaved-box-desc{
-    font-size: 1.6rem;
-  }
-  .searchSaved-box-view {
-    font-size: 1.6rem;
-  }
-  .searchSaved-box-delete i{
-    font-size: 3rem;
-  }
+
 }
 
 @media screen and (max-width: 576px) {
