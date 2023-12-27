@@ -70,8 +70,11 @@ ul{
 
 }
 
-.btn__blue{
+.btn__blue {
   background-color: var(--color-blue);
+}
+
+.btn__blue a{
   color: var(--color-white);
 }
 

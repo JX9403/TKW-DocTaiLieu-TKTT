@@ -57,7 +57,17 @@
   .footer-content-map {
     margin-top: 20px;
   }
-  
+
+  .searchOne-title{
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+
+  .searchOne-input{
+    width: 700px;
+    height: 68px;
+    
+  }
 
 }
 
@@ -73,7 +83,21 @@
   .header-search {
     width: 300px;
   }
+  
+  .searchOne-title{
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
 
+  .searchOne-input{
+    width: 600px;
+    height: 64px;
+    
+  }
+  .searchOne-recent{
+    margin-top: 24px;
+    width: 600px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -98,10 +122,7 @@
   .header-noti-list {
     right: 0;
   }
-
-  .acc-box {
-    right: 0;
-  }
+  
   .header-khoa-wrap{
     padding: 30px 50px;
   }
@@ -109,7 +130,22 @@
   .header-khoa-wrap a{
     font-size: 1.4rem;
   }
+  .acc-box {
+    right: 0;
+  }
+  .searchOne-recent{
+    display: none;
+  }
+  .searchOne-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
 
+  .searchOne-input{
+    width: 500px;
+    height: 54px;
+    
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -139,11 +175,39 @@
   .btn-c {
     margin: 8px;
   }
-
-  .readDoc-res{
-    font-size: 1.4rem;
+  .searchOne{
+    padding-top: 50px;
   }
+  .searchOne-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .searchOne-input{
+    width: 300px;
+    height: 34px;
+    padding: 0 44px;
+    font-size: 14px;
+  }
+
+  .searchOne-icon{
+    top: calc(50% - 12px);
+    left: 20px;
+    font-size: 1.8rem;
+  }
+
+   /* popup */
+
+.popup {
  
+  width:80%;
+
+}
+
+.popup h2 {
   
-  
+  font-size: 1.8rem;
+
+}
+
 }
