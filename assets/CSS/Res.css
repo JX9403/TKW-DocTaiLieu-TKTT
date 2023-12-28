@@ -209,5 +209,8 @@
   font-size: 1.8rem;
 
 }
-
+.overlay{
+  bottom: 40px;
+  right: -10px;
+ }
 }
